@@ -1,5 +1,5 @@
 import React from "react";
-import { Map, GoogleApiWrapper } from "google-maps-react";
+import { Map, GoogleApiWrapper } from "google-maps-react"; // Importation dU GOogla mao library pour intègrer Google map dans notre Application
 
 const mapStyles = {
   width: "100%",
@@ -41,5 +41,5 @@ const Main = (props) => {
 };
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyAMdL60P6FE0mlCyspqDDuvYfDg9nvqBPg",
+  apiKey: "AIzaSyAMdL60P6FE0mlCyspqDDuvYfDg9nvqBPg", // inègration de google map APIkey pour avoir accès au map.
 })(Main);
